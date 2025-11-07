@@ -1,0 +1,12 @@
+#local terraform directories
+.terraform/
+
+#terraform state files (contain sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
+
+#ignore lock file
+.terraform.lock.hcl
+
+#ignore private key files
+*.pem 
